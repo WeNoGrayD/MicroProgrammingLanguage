@@ -1,0 +1,19 @@
+﻿%include% C:\Users\Админ\source\repos\MicroProgrammingLanguage\repos\INCEPTION_LVL1.bin
+%include% C:\Users\Админ\source\repos\MicroProgrammingLanguage\repos\INCEPTION_LVL2.bin
+
+DEFINE we_need_to_go_deeper
+	CALL enter_lvl1
+	CALL travel_lvl1
+	CALL enter_lvl2
+	CALL travel_lvl2
+END
+
+DEFINE return_to_the_real_world
+	CALL exit_lvl2
+	CALL exit_lvl1
+END
+
+CALL we_need_to_go_deeper
+CALL return_to_the_real_world
+
+END

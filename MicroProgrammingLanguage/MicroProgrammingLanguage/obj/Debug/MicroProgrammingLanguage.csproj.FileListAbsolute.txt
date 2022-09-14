@@ -1,0 +1,10 @@
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguage\bin\Debug\MicroProgrammingLanguage.exe.config
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguage\bin\Debug\MicroProgrammingLanguage.exe
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguage\bin\Debug\MicroProgrammingLanguage.pdb
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguage\bin\Debug\MicroProgrammingLanguageClassLib.dll
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguage\bin\Debug\MicroProgrammingLanguageClassLib.pdb
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguage\obj\Debug\MicroProgrammingLanguage.csprojAssemblyReference.cache
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguage\obj\Debug\MicroProgrammingLanguage.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguage\obj\Debug\MicroProgrammingLanguage.csproj.CopyComplete
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguage\obj\Debug\MicroProgrammingLanguage.exe
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguage\obj\Debug\MicroProgrammingLanguage.pdb

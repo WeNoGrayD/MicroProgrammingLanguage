@@ -1,0 +1,21 @@
+﻿%include% C:\Users\Админ\source\repos\MicroProgrammingLanguage\repos\INCEPTION_LVL1_ROOM1.bin
+%include% C:\Users\Админ\source\repos\MicroProgrammingLanguage\repos\INCEPTION_LVL1_ROOM2.bin
+
+DEFINE enter_lvl1
+	WRITE "Enter level 1."
+END
+
+DEFINE travel_lvl1
+	CALL enter_room1
+	CALL exit_room1
+	CALL enter_room2
+	CALL exit_room2
+	CALL enter_room1
+	CALL exit_room1
+END
+
+DEFINE exit_lvl1
+	WRITE "Exit level 1."
+END	
+
+END

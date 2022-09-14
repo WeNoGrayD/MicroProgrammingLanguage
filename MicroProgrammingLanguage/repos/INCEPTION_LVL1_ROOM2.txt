@@ -1,0 +1,9 @@
+﻿DEFINE enter_room2
+	WRITE "Enter room 2."
+END
+
+DEFINE exit_room2
+	WRITE "Exit room 2."
+END
+
+END

@@ -1,0 +1,51 @@
+﻿WRITE "x = 128"
+SET x, 128: INT
+WRITE "y = 88.85"
+SET y, 88.85: FLOAT
+WRITE "t = true"
+SET t, true : BOOL
+
+WRITE "z = x % 10 + y * 100 = {expr}512"
+SET z, (x % 10 + y * 100): FLOAT
+WRITE "Calculated z:"
+WRITE z
+
+WRITE ""
+
+WRITE "z = 2 << 1 << 1 << 1 << 1<< 1 << 1 << 1 << 1 = {expr}512"
+SET z, (2 << 1 << 1 << 1 << 1<< 1 << 1 << 1 << 1): INT
+WRITE "Calculated z:"
+WRITE z
+
+WRITE ""
+
+WRITE "b1 = (maxx(1; 2; x; abs(-y * 2)) != x) = {expr}true"
+SET b1, (maxx(1; 2; x; abs(-y * 2)) != x): BOOL
+WRITE "Calculated b1:"
+WRITE b1
+
+WRITE ""
+
+SET y_6bit, (y - 24.85): FLOAT
+WRITE "b2 = ((y - 24.85) ~ z) = (y1_buf >= z - 0.1) && (y1_buf <= z + 0.1) = {expr}true"
+SET b2, ((y_6bit >= z - 0.1) && (y_6bit <= z + 0.1)): BOOL
+WRITE "Calculated b2:"
+WRITE b2
+
+WRITE ""
+
+WRITE "z = (x + y > y - x)&&(x >= -y || y-4^2 == x)&&t = {expr}true"
+SET z1, (x + y): FLOAT
+WRITE z1
+SET z2, (y - x): FLOAT
+WRITE z2
+SET z3, (z1 > z2): BOOL
+WRITE z3
+#SET z, ((x + y > y - x)&&(x >= -y || y-4^2 == x)&&t): BOOL
+WRITE z1
+
+WRITE "b3 = !(!(!t)) = {expr}false"
+SET b3, (!(!(!t))): BOOL
+WRITE b3
+
+END

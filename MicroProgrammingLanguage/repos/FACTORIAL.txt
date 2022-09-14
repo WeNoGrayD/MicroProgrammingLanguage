@@ -1,0 +1,35 @@
+﻿SET digit, -1: INT
+SET fact_return, -1 : INT
+
+DEFINE factorial_impl
+	IF (digit <= 1) : 
+		SET fact_return, 1 : INT
+		RET 
+	END ?
+		SET digit, (digit - 1): INT
+		CALL factorial
+		SET digit, (digit + 1): INT
+		SET fact_return, (digit * fact_return): INT
+	END
+END
+
+DEFINE factorial
+	CALL factorial_impl
+END
+
+DEFINE write_factorial
+	WRITE "digit:"
+	WRITE digit
+	WRITE "Factorial of digit:"
+	WRITE fact_return
+END
+
+DEFINE clear_memory
+	PUSH digit
+	PUSH fact_return
+	PUSH factorial_impl
+	PUSH factorial
+	PUSH write_factorial
+END
+
+END

@@ -1,0 +1,16 @@
+﻿%include% C:\Users\Админ\source\repos\MicroProgrammingLanguage\repos\FACTORIAL.bin
+
+SET i, 10: INT
+SET digit, i : INT
+CALL factorial
+CALL write_factorial
+WRITE ""
+SET i, (i - 1): INT
+IF (i == 0) : WRITE "THAT'S ALL FOLKS" ? JUMP 3
+PUSH i
+PUSH digit
+PUSH factorial
+PUSH write_factorial
+CALL clear_memory
+
+END

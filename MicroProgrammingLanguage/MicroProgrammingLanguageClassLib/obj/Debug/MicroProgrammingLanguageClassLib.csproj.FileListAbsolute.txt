@@ -1,0 +1,6 @@
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguageClassLib\bin\Debug\MicroProgrammingLanguageClassLib.dll
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguageClassLib\bin\Debug\MicroProgrammingLanguageClassLib.pdb
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguageClassLib\obj\Debug\MicroProgrammingLanguageClassLib.csprojAssemblyReference.cache
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguageClassLib\obj\Debug\MicroProgrammingLanguageClassLib.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguageClassLib\obj\Debug\MicroProgrammingLanguageClassLib.dll
+C:\Users\Админ\source\repos\MicroProgrammingLanguage\MicroProgrammingLanguageClassLib\obj\Debug\MicroProgrammingLanguageClassLib.pdb
